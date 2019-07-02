@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "23222338474",
+    "firebase_url": "https://urbanclap-e4c04.firebaseio.com",
+    "project_id": "urbanclap-e4c04",
+    "storage_bucket": "urbanclap-e4c04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23222338474:android:3bfce9a7b858a388",
+        "android_client_info": {
+          "package_name": "com.service.Worker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23222338474-rfoqpo3srrsa34a53tgmvuhlhiijkint.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.service.Worker",
+            "certificate_hash": "3a4965fa62ce963260b2f58e098548d81f317c17"
+          }
+        },
+        {
+          "client_id": "23222338474-3kj4uudcf0kda1tq438r16p48uq54aar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiYgxj66tJX_oXEu3up7Oe7nN71eH_ADE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23222338474-3kj4uudcf0kda1tq438r16p48uq54aar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

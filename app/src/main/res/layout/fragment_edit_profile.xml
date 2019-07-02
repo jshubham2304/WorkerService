@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="UselessParent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.EditProfile">
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/untitled"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="210dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageSelect"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_marginTop="180dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"/>
+    <include
+        android:layout_below="@id/image"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+
+        layout="@layout/activity_registeration"/>
+    </RelativeLayout>
+
+
+</FrameLayout></ScrollView>

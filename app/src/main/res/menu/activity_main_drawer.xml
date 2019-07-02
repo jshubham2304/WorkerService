@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_move_to_inbox_black_24dp"
+            android:title="Order Request" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_offline_pin_black_24dp"
+            android:title="Complete Order" />
+        <item
+            android:id="@+id/nav_editProfile"
+            android:icon="@drawable/ic_mode_edit_black_24dp"
+            android:title="Edit Profile" />
+
+    <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Report" />
+
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_warning_black_24dp"
+                android:title="Log Out" /></group>
+
+</menu>
